@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="employees" type="employeesType"/>
+  <xs:complexType name="employeeType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Иванов"/>
+            <xs:enumeration value="Петров"/>
+            <xs:enumeration value="Сидоров"/>
+            <xs:enumeration value="Петренко"/>
+            <xs:enumeration value="Козлов"/>
+            <xs:enumeration value="Синицин"/>
+            <xs:enumeration value="Ленин"/>
+            <xs:enumeration value="Лисицин"/>
+            <xs:enumeration value="Кошкин"/>
+            <xs:enumeration value="Кириенко"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="post">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Директор"/>
+            <xs:enumeration value="Водитель"/>
+            <xs:enumeration value="Бухгалтер"/>
+            <xs:enumeration value="Менеджер"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="email" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="ivanov@email.com"/>
+            <xs:enumeration value="petrov@email.com"/>
+            <xs:enumeration value="sidorov@email.com"/>
+            <xs:enumeration value="petrenko@email.com"/>
+            <xs:enumeration value="kozlov@email.com"/>
+            <xs:enumeration value="lisicin@email.com"/>
+            <xs:enumeration value="kirienko@email.com"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="departmentsType" name="departments"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="departmentsType">
+    <xs:sequence>
+      <xs:element type="departmentType" name="department" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="employeesType">
+    <xs:sequence>
+      <xs:element type="employeeType" name="employee" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="departmentType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Головное подразделение"/>
+            <xs:enumeration value="Дополнительно подразделение Москва"/>
+            <xs:enumeration value="Подразделение Рязань 1"/>
+            <xs:enumeration value="Подразделение Рязань 2"/>
+            <xs:enumeration value="Подразделение Самара"/>
+            <xs:enumeration value="Подразделение Казань"/>
+            <xs:enumeration value="Подразделение Ростов"/>
+            <xs:enumeration value="Подразделение Воронеж"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="city">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Москва"/>
+            <xs:enumeration value="Рязань"/>
+            <xs:enumeration value="Самара"/>
+            <xs:enumeration value="Казань"/>
+            <xs:enumeration value="Ростов"/>
+            <xs:enumeration value="Воронеж"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

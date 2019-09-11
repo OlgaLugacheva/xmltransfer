@@ -1,0 +1,205 @@
+<employees>
+    <employee>
+        <name>Иванов</name>
+        <post>Директор</post>
+        <email>ivanov@email.com</email>
+        <departments>
+            <department>
+                <name>Головное подразделение</name>
+                <city>Москва</city>
+            </department>
+            <department>
+                <name>Дополнительно подразделение Москва</name>
+                <city>Москва</city>
+            </department>
+            <department>
+                <name>Подразделение Рязань 1</name>
+                <city>Рязань</city>
+            </department>
+            <department>
+                <name>Подразделение Рязань 2</name>
+                <city>Рязань</city>
+            </department>
+            <department>
+                <name>Подразделение Самара</name>
+                <city>Самара</city>
+            </department>
+            <department>
+                <name>Подразделение Казань</name>
+                <city>Казань</city>
+            </department>
+            <department>
+                <name>Подразделение Ростов</name>
+                <city>Ростов</city>
+            </department>
+            <department>
+                <name>Подразделение Воронеж</name>
+                <city>Воронеж</city>
+            </department>
+        </departments>
+    </employee>
+    <employee>
+        <name>Петров</name>
+        <post>Водитель</post>
+        <email>petrov@email.com</email>
+        <departments>
+            <department>
+                <name>Подразделение Рязань 1</name>
+                <city>Рязань</city>
+            </department>
+            <department>
+                <name>Подразделение Рязань 2</name>
+                <city>Рязань</city>
+            </department>
+            <department>
+                <name>Подразделение Самара</name>
+                <city>Самара</city>
+            </department>
+        </departments>
+    </employee>
+    <employee>
+        <name>Сидоров</name>
+        <post>Бухгалтер</post>
+        <email>sidorov@email.com</email>
+        <departments>
+            <department>
+                <name>Подразделение Ростов</name>
+                <city>Ростов</city>
+            </department>
+            <department>
+                <name>Подразделение Воронеж</name>
+                <city>Воронеж</city>
+            </department>
+        </departments>
+    </employee>
+    <employee>
+        <name>Петренко</name>
+        <post>Менеджер</post>
+        <email>petrenko@email.com</email>
+        <departments>
+            <department>
+                <name>Подразделение Воронеж</name>
+                <city>Воронеж</city>
+            </department>
+        </departments>
+    </employee>
+    <employee>
+        <name>Козлов</name>
+        <post>Водитель</post>
+        <email>kozlov@email.com</email>
+        <departments>
+            <department>
+                <name>Головное подразделение</name>
+                <city>Москва</city>
+            </department>
+            <department>
+                <name>Дополнительно подразделение Москва</name>
+                <city>Москва</city>
+            </department>
+        </departments>
+    </employee>
+    <employee>
+        <name>Синицин</name>
+        <post>Водитель</post>
+        <departments>
+            <department>
+                <name>Головное подразделение</name>
+                <city>Москва</city>
+            </department>
+        </departments>
+    </employee>
+    <employee>
+        <name>Ленин</name>
+        <post>Менеджер</post>
+        <departments>
+            <department>
+                <name>Подразделение Самара</name>
+                <city>Самара</city>
+            </department>
+            <department>
+                <name>Подразделение Казань</name>
+                <city>Казань</city>
+            </department>
+            <department>
+                <name>Подразделение Ростов</name>
+                <city>Ростов</city>
+            </department>
+            <department>
+                <name>Подразделение Воронеж</name>
+                <city>Воронеж</city>
+            </department>
+        </departments>
+    </employee>
+    <employee>
+        <name>Лисицин</name>
+        <post>Менеджер</post>
+        <email>lisicin@email.com</email>
+        <departments>
+            <department>
+                <name>Подразделение Ростов</name>
+                <city>Ростов</city>
+            </department>
+            <department>
+                <name>Подразделение Воронеж</name>
+                <city>Воронеж</city>
+            </department>
+        </departments>
+    </employee>
+    <employee>
+        <name>Кошкин</name>
+        <post>Водитель</post>
+        <departments>
+            <department>
+                <name>Головное подразделение</name>
+                <city>Москва</city>
+            </department>
+            <department>
+                <name>Дополнительно подразделение Москва</name>
+                <city>Москва</city>
+            </department>
+            <department>
+                <name>Подразделение Рязань 1</name>
+                <city>Рязань</city>
+            </department>
+        </departments>
+    </employee>
+    <employee>
+        <name>Кириенко</name>
+        <post>Бухгалтер</post>
+        <email>kirienko@email.com</email>
+        <departments>
+            <department>
+                <name>Головное подразделение</name>
+                <city>Москва</city>
+            </department>
+            <department>
+                <name>Дополнительно подразделение Москва</name>
+                <city>Москва</city>
+            </department>
+            <department>
+                <name>Подразделение Рязань 1</name>
+                <city>Рязань</city>
+            </department>
+            <department>
+                <name>Подразделение Рязань 2</name>
+                <city>Рязань</city>
+            </department>
+            <department>
+                <name>Подразделение Самара</name>
+                <city>Самара</city>
+            </department>
+            <department>
+                <name>Подразделение Казань</name>
+                <city>Казань</city>
+            </department>
+            <department>
+                <name>Подразделение Ростов</name>
+                <city>Ростов</city>
+            </department>
+            <department>
+                <name>Подразделение Воронеж</name>
+                <city>Воронеж</city>
+            </department>
+        </departments>
+    </employee>
+</employees>

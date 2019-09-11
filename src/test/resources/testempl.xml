@@ -1,0 +1,13 @@
+<employees>
+    <employee>
+        <name>Иванов</name>
+        <post>Директор</post>
+        <email>ivanov@email.com</email>
+        <departments>
+            <department>
+                <name>Головное подразделение</name>
+                <city>Москва</city>
+            </department>
+        </departments>
+    </employee>
+</employees>

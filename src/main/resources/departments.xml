@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<cities>
+    <city>
+        <name>Москва</name>
+        <count>5</count>
+        <departments>
+            <department>
+                <name>Головное подразделение</name>
+                <employees>
+                    <employee>
+                        <name>Иванов</name>
+                        <email>ivanov@email.com</email>
+                        <post>Директор</post>
+                    </employee>
+                    <employee>
+                        <name>Синицин</name>
+                        <post>Водитель</post>
+                    </employee>
+                    <employee>
+                        <name>Козлов</name>
+                        <email>kozlov@email.com</email>
+                        <post>Водитель</post>
+                    </employee>
+                </employees>
+            </department>
+            <department>
+                <name>Дополнительно подразделение Москва</name>
+                <employees>
+                    <employee>
+                        <name>Ленин</name>
+                        <post>Менеджер</post>
+                    </employee>
+                    <employee>
+                        <name>Лисицин</name>
+                        <email>lisicin@email.com</email>
+                        <post>Менеджер</post>
+                    </employee>
+                </employees>
+            </department>
+        </departments>
+    </city>
+    <city>
+        <name>Воронеж</name>
+        <count>2</count>
+        <departments>
+            <department>
+                <name>Подразделение Воронеж</name>
+                <employees>
+                    <employee>
+                        <name>Сидоров</name>
+                        <post>Водитель</post>
+                    </employee>
+                    <employee>
+                        <name>Носиков</name>
+                        <email>nosikov@email.com</email>
+                        <post>Менеджер</post>
+                    </employee>
+                </employees>
+            </department>
+        </departments>
+    </city>
+</cities>

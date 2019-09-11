@@ -1,0 +1,18 @@
+<cities>
+    <city>
+        <name>Москва</name>
+        <count>1</count>
+        <departments>
+            <department>
+                <name>Головное подразделение</name>
+                <employees>
+                    <employee>
+                        <name>Иванов</name>
+                        <email>ivanov@email.com</email>
+                        <post>Директор</post>
+                    </employee>
+                </employees>
+            </department>
+        </departments>
+    </city>
+</cities>
